@@ -1,0 +1,65 @@
+#fondo {
+    -fx-background-image: url('../images/tankLogo.png');
+    -fx-background-size: cover;
+}
+
+#panelPreGame {
+    -fx-background-image: url('../images/fondoSelva.jpg');
+    -fx-background-size: cover;
+}
+
+.nameUser {
+    -fx-background-radius: 50;
+}
+
+.btnStart {
+    -fx-background-image: url('../images/buttons/btnStart.png');
+    -fx-background-size: cover;
+    -fx-background-color: rgba(255, 255, 255, 0.0);
+}
+
+.btnStart:hover {
+    -fx-background-image: url('../images/buttons/btnStartPrs.png');
+    -fx-background-size: cover;
+    -fx-background-color: rgba(255, 255, 255, 0.0);
+    -fx-cursor: hand;
+}
+
+.btnBoard {
+    -fx-background-image: url('../images/buttons/btnBoard.png');
+    -fx-background-size: cover;
+    -fx-background-color: rgba(255, 255, 255, 0.0);
+}
+
+.btnBoard:hover {
+    -fx-background-image: url('../images/buttons/btnBoardPrs.png');
+    -fx-background-size: cover;
+    -fx-background-color: rgba(255, 255, 255, 0.0);
+    -fx-cursor: hand;
+}
+
+.btnBack {
+    -fx-background-image: url('../images/buttons/btnBack.png');
+    -fx-background-size: cover;
+    -fx-background-color: rgba(255, 255, 255, 0.0);
+}
+
+.btnBack:hover {
+    -fx-background-image: url('../images/buttons/btnBackPrs.png');
+    -fx-background-size: cover;
+    -fx-background-color: rgba(255, 255, 255, 0.0);
+    -fx-cursor: hand;
+}
+
+.btnPlay {
+    -fx-background-image: url('../images/buttons/btnPlay.png');
+    -fx-background-size: cover;
+    -fx-background-color: rgba(255, 255, 255, 0.0);
+}
+
+.btnPlay:hover {
+    -fx-background-image: url('../images/buttons/btnPlayPrs.png');
+    -fx-background-size: cover;
+    -fx-background-color: rgba(255, 255, 255, 0.0);
+    -fx-cursor: hand;
+}

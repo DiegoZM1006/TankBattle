@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tankbattle.controller.BoardController">
+   <children>
+      <Label fx:id="name" layoutX="241.0" layoutY="27.0" text="BOARD" AnchorPane.topAnchor="30.0">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <TableView fx:id="table" layoutX="100.0" layoutY="85.0" prefHeight="230.0" prefWidth="400.0" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="100.0">
+        <columns>
+          <TableColumn fx:id="Nombre" editable="false" prefWidth="200.0" text="Nombre" />
+          <TableColumn fx:id="Victorias" editable="false" prefWidth="200.0" text="Victorias" />
+        </columns>
+      </TableView>
+      <Button fx:id="btnBack" layoutX="266.0" layoutY="333.0" mnemonicParsing="false" onAction="#btnBack" text="BACK" AnchorPane.bottomAnchor="30.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
